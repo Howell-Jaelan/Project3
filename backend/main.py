@@ -57,7 +57,7 @@ def predict(match: MatchInput):
                              'home_draw_rate': home_stats['home_draw_rate'],
                              'away_draw_rate': away_stats['away_draw_rate'],
                              'home_ranking': home_stats['home_ranking'],
-                             'away_ranking': away_stats['away_ranking'],
+                             'away_ranking': away_stats['home_ranking'],
                              'ranking_diff': home_stats['home_ranking'] - away_stats['home_ranking'],
                              'match_compare': abs(home_stats['home_ranking']-away_stats['home_ranking']),
                              'neutral': 1}])
